@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patua+One&family=Argent+CF:wght@400;700&family=Greycliff+CF:wght@800&display=swap">
+    <style>
+        body {
+            font-family: 'Argent CF', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Set a minimum height to ensure content is centered vertically */
+        }
+
+        .container {
+            background-color: #34495e;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            width: 80%; /* Adjust the width based on your preference */
+            max-width: 800px; /* Set a maximum width to prevent it from becoming too wide */
+            text-align: left; /* Align text to the left */
+        }
+
+        .title-text {
+            font-family: 'Greycliff CF', sans-serif;
+            font-size: 3em; 
+            margin-bottom: 20px;
+            color: #ecf0f1; 
+        }
+
+        .tabs {
+            text-align: center;
+            margin-bottom: 30px; 
+        }
+
+        .tabs button {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px; 
+            margin: 10px; 
+            cursor: pointer;
+            border-radius: 12px; 
+            font-family: 'Patua One', sans-serif;
+            font-size: 1.5em; 
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+        }
+
+        .tabs button:hover {
+            background-color: #2980b9;
+            transform: scale(1.1); 
+        }
+
+        .tab-content {
+            display: none;
+            margin-top: 30px; 
+            color: #ecf0f1; 
+            font-size: 1.2em; 
+        }
+
+        .back-button {
+            display: none;
+            margin-top: 20px; 
+        }
+
+        .back-button button {
+            background-color: #27ae60;
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px; 
+            cursor: pointer;
+            border-radius: 12px; 
+            font-size: 1.5em; 
+        }
+
+        .back-button button:hover {
+            background-color: #219a52;
+        }
+
+        .additional-text {
+            margin-top: 30px; 
+            font-size: 1.5em; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title-text">Website Project Documentation</div>
+    <div class="tabs">
+        <button onclick="showTab('tab1')">Portfolio #1</button>
+        <button onclick="showTab('tab2')">Portfolio #2</button>
+        <button onclick="showTab('tab3')">Portfolio #3</button>
+    </div>
+
+    <div id="tab1" class="tab-content">
+        <h2>Computer Science as Discipline</h2>
+    <p style="text-indent: 5em;" align="left">In essence, the difference between data and information lies in their contextual relevance. Data, raw and unprocessed, lacks meaning on its own, whereas information emerges when data is processed, organized, and presented with a purpose. The distinction involves understanding that data is the foundation, and information is the result of interpreting and structuring that data.
+
+        The article emphasizes the historical origins of the terms, noting that "data" originates from the Latin word "datum," meaning "something given," while "information" has roots in Old French and Middle English, always associated with the act of informing or conveying knowledge.
+        
+        Practical examples illustrate the contrast: raw temperature readings worldwide over a century constitute data, but the conclusion that global temperatures are rising is information derived from processing and analyzing that data. Similarly, website visitor statistics are data, but the insight that U.S. traffic is increasing while Australian traffic is decreasing represents meaningful information.<br><br>
+        
+        The author highlights potential pitfalls, such as misleading data resulting from misinterpretation, often due to incomplete information or a lack of context. Moreover, the evolving usage of "data" as a mass noun in common language has led to interchangeability with "information."
+        
+        The article further explores the nuances in grammar and usage, with "data" being technically plural but often treated as a singular mass noun. It stresses the importance of recognizing that information depends on data, not vice versa, and that organization is crucial for transforming data into useful information.
+        
+        A separate section introduces a video explaining the differences, while another segment, written by Madison Zoey Vettorino, provides a comprehensive overview. Vettorino delves into the definitions of data and information, their roles in decision-making, and the significance of an effective data management strategy.
+        
+        The post continues by detailing the distinctions between qualitative and quantitative data, emphasizing the critical role of context in turning data into actionable information. It also outlines best practices for ensuring high-quality data and information, including secure storage, standardized formats, and efficient data utilization.
+        
+        Concrete examples in a business context illustrate the difference between data and information, such as website visitor numbers (data) versus understanding the increase in organic traffic (information).
+        
+        The article concludes by stressing the omnipresence of data and information in business and the need for their strategic use. It encourages organizations to focus on collecting high-quality data, syncing it between applications, and transforming it into transparent information to positively impact decision-making and overall business performance.</p>
+    <h3>5 Computing Disciplines and Majors</h3>
+    <p>The field of computing comprises five major disciplines, each with its unique focus and applications:<br><br>
+    1. Computer Engineering:<br><br>
+
+    Focuses on designing computer hardware and peripheral devices at the chip level.<br>
+    Involves creating new computer circuits, microchips, and electronic components.<br>
+    Qualifies graduates for positions at chip manufacturing companies.<br><br>
+
+    <b>2. Computer Science:</b><br><br>
+
+    Concentrates on computer architecture and effective programming.<br>
+    Explores fundamental theories of problem-solving in computers.<br>
+    Graduates find roles as programmers, software engineers, and researchers in diverse fields like artificial intelligence.<br><br>
+
+    <b>3. Information Systems:</b><br><br>
+
+    Offered by business schools, applies computers to address organizational challenges.<br>
+    Suitable for individuals with an interest in computer professions but lacking strong math aptitude.<br>
+    Leads to roles in programming, technical support, systems analysis, and management positions.<br><br>
+
+    <b>4. Information Technology:</b><br><br>
+
+    Focuses on understanding and managing computer equipment and software in organizations.<br>
+    Involves hands-on work with hardware, networks, web pages, multimedia, and security.<br>
+    Graduates often work as network specialists, system analysts, and help desk technicians.<br><br>
+
+    <b>5. Software Engineering:</b><br><br>
+
+    Approaches software development with a focus on reliability, efficiency, and scalability.<br>
+    Integrates courses from Information Systems and Computer Science curricula.<br>
+    Graduates often work on large-scale, safety-critical applications.<br><br>
+
+    Mixed disciplinary majors, such as Computer Engineering, which involves both software and hardware, and provides insights from a Computer Engineering major's perspective. Additionally, it explores career paths within each discipline, emphasizing the adaptability of computer science graduates to diverse roles.<br><br>
+    
+    </p>
+    
+    <p><b>Sources:</b><br>
+      <a href="http://reilee.bl.tripod.com/it_final/fivecd.html">Five Major Computing Disciplines<br></a>
+      <a href="https://www.acm.org/binaries/content/assets/education/computing-disciplines.pdf">Computing Disciplines & Majors<br></a>
+      <a href="https://otb.smsu.edu/sections/section2-disciplinary-perspectives/computer-science/computer-science-home.html">Computer Science<br></a>
+      <a href="https://www.britannica.com/science/computer-science">Computing Disciplines & Majors<br></a>
+      <a href="https://ceric.ca/publications/computing-careers-disciplines-a-quick-guide-for-prospective-students-and-career-advisors/">COMPUTING CAREERS & DISCIPLINES: A QUICK GUIDE FOR PROSPECTIVE STUDENTS AND CAREER ADVISORS<br><br><br></a>
+    </p>
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <h2>Data and Information</h2>
+    <p>When exploring the realms of data and information, it's crucial to discern the subtle yet significant disparities between the two concepts. While often used interchangeably, they represent distinct entities with unique characteristics, applications, and implications.
+    <br><br><b>Data:</b> Raw, unorganized facts lacking inherent meaning; individual pieces of data hold minimal utility independently.
+    <br><b>Information:</b> Data processed, organized, and presented within a specific context to derive meaning and usefulness.
+
+    <br><br><br><br><b>Examples of Data and Information:</b>
+    <br><br><b>Data:</b> Each student's test score, a list of dates.<br>
+  <b>Information:</b> The average class score, global temperature trends derived from historical data.<br><br>
+    <b>Etymology and Grammar:</b><br><br>
+    <b>Data:</b> Originating from Latin "datum," evolving into the plural form. Grammatically, it is technically plural but often treated as a mass noun.<br>
+    <b>Information:</b> Older term rooted in Old French and Middle English, maintaining its singular nature in both etymology and grammar.<br><br>
+    <b>Data Transformation into Information:</b><br><br>
+    Processing: Collecting, recording, organizing, and storing data.<br>
+    Interpreting: Adding context to facts and statistics.<br>
+    rganizing: Storing data for decision-making purposes.<br><br>
+    <b>Best Practices for Quality Data and Information:</b><br><br>
+    Storing data securely and ethically.<br>
+    Capturing truthful, reliable data in standardized formats.<br>
+    Validating and enriching data for maintenance.<br>
+    Efficiently using structured data for optimization.<br>
+    Regularly syncing applications for a comprehensive overview.<br><br>
+    <b>Data vs. Information in a Business Context:</b><br><br>
+    Examples of Data: Monthly website visitors, purchase timestamps.<br>
+    Examples of Information: Identified trends in organic traffic, optimal transaction times.<br><br>
+    <b>Harnessing the Power of Data and Information in Business:</b><br><br>
+    Prioritizing data collection, interpretation, and application.<br>
+    Emphasizing high-quality data to avoid adverse influences on decision-making.<br>
+    Avoiding data silos to ensure accessibility.<br>
+    Evolving business practices based on the journey from raw data to relevant, actionable information.<br><br>
+    Understanding the nuanced disparities between data and information is pivotal for businesses seeking informed decision-making. By embracing high-quality data and harnessing the transformational journey from raw data to actionable information, organizations can elevate their performance and adapt to dynamic landscapes.
+
+
+    </p>
+    <h3><br><br><br>Information Systems</h3>
+    <p>An Information System is a comprehensive set of interconnected components designed to collect, process, store, and distribute information in order to support decision-making and control within an organization. It involves the collaborative efforts of people, processes, and technology.
+
+      <br><br><b>Components of Information Systems:</b>
+
+      <br><br><b>Hardware:</b>
+
+      <br>Definition: The physical components that constitute the technological infrastructure, including computers, servers, and networking devices.
+
+      <br><br><b>Software:</b>
+
+      <br>Definition: The applications and programs that process and manipulate data. This can be categorized into system software (managing hardware and resources) and application software (directly assisting end-users).
+      
+      <br><br><b>Data:</b>
+      
+      <br>Definition: Raw facts and figures that form the basis for information. While individual pieces of data may be meaningless, their organization and processing make them powerful for business operations.
+      
+      <br><br><b>Procedures:</b>
+      
+      <br>Definition: The methods and rules governing the efficient use of information systems. Procedures ensure standardized and effective utilization of the system.
+      
+      <br><br><b>People:</b>
+      
+      <br>Definition: Users, analysts, and administrators who actively engage with the system. People play crucial roles in the operation, analysis, and administration of information systems.
+
+      <p>
+        <br><br><b>Types of Information Systems:</b>
+
+      <br><br><b>Transaction Processing Systems (TPS):</b>
+      <br>Function: Handle day-to-day transactions, such as sales and purchases, supporting operational processes that involve data production and consumption.
+      
+      <br><br><b>Management Information Systems (MIS):</b>
+      <br>Function: Provide reports and summaries to aid management in decision-making by offering insights into organizational performance.
+      
+      <br><br><b>Decision Support Systems (DSS):</b>
+      <br>Function: Assist in decision-making by analyzing data and providing interactive insights for managers.
+      
+      <br><br><b>Executive Support Systems (ESS):</b>
+      <br>Function: Support top-level executives in strategic decision-making by providing advanced tools for information analysis.
+      
+      <br><br><b>Enterprise Resource Planning (ERP) Systems:</b>
+      <br>Function: Integrate and manage business processes across an organization, promoting efficiency and collaboration.
+
+      <br><br><b>Knowledge Work Systems (KWS):</b>      
+      <br>Function: Specialized systems that expedite knowledge creation and ensure the correct application of technical skills and knowledge within a business.
+      
+      <br><br><b>Office Automation System (OAS):</b>
+      <br>Function: Automate administrative processes, including documentation, data recording, and office transactions.
+    </p>
+    <p>
+      <br><br>Information Systems are integral to modern organizations, providing a framework for efficient data management and decision-making. With interconnected components and diverse types serving specific functions, Information Systems form the backbone of business operations in the digital age. Understanding their components and types is crucial for organizations aiming to leverage technology for strategic advantages.
+    </p>
+
+    </p>
+
+    <h3><br><br><br>Different Types of Support Systems in Information Systems</h3>
+    <p>In the ever-evolving landscape of information technology, organizations leverage various information systems to streamline operations, enhance decision-making, and gain a competitive edge. This overview delves into the six primary types of information systems and their applications, shedding light on their roles in organizational processes.
+    <br><br>An information system encompasses diverse technologies, including computers, software, databases, communication systems, the internet, and devices. These components work cohesively to collect, transfer, organize, and store data. In the dynamic business environment, integrating advanced technologies through information systems has brought about automation, efficiency, and timeliness in various activities.
+    
+    
+    <br><br><b>Six Types of Information Systems and Their Applications:</b>
+
+    <br><br><b>Knowledge Work System (KWS):</b>
+    <br>Definition: Facilitates the integration of new and updated knowledge into the business process.
+    <br>Applications: Includes computer-aided design systems (CAD), financial workstations, and virtual reality systems.
+
+    <br><br><b>Management Information System (MIS):</b>
+    <br>Definition: Automates processes for middle managers, aiding in performance tracking, decision-making, and business planning.
+    <br><br>Applications: Enhances efficiency, provides a clear organizational performance picture, adds value to products, assists in communication and planning, and offers a competitive advantage.
+    
+    <br><br><b>Decision Support System (DSS):</b>
+    <br>Definition: Analyzes business data to automate decision-making and problem-solving for managers.
+    <br>Applications: Used in various industries to collect information on revenue, sales figures, or inventory.
+
+    <br><br><b>Office Automation System (OAS):</b>
+    <br>Definition: Automates administrative processes like documentation, data recording, and office transactions.
+    <br>Applications: Encompasses email, voice mail, and word processing.
+
+    <br><br><b>Transaction Processing System (TPS):</b>
+    <br>Definition: Automates transaction collection, modification, and retrieval processes to enhance performance, reliability, and consistency.
+    <br>Applications: Ensures smooth daily operations without hassle.
+
+    <br><br><b>Executive Support System (ESS):</b>
+    <br>Definition: Assists top-level executives in planning, controlling workflow, and making strategic decisions.
+    <br>Characteristics: Provides advanced telecommunication, computing capabilities, and effective display options. Monitors performance, tracks competitors' strategies, and forecasts future trends.
+
+
+
+    <br><br>An information system is more than a mere collection of technology; it is a facilitator of seamless business operations, adaptability to change, and goal achievement. Beyond its technological facets, an information system is intricately linked to fulfilling the needs of individuals, groups, or organizations. In the digital era, the growing importance of information systems lies in standardizing the processes of passing, collecting, storing, and accessing information for both individuals and businesses.
+    
+    <br><br>Information systems play a pivotal role in shaping organizational efficiency, decision-making, and competitiveness. The six types discussed—Knowledge Work System, Management Information System, Decision Support System, Office Automation System, Transaction Processing System, and Executive Support System—cater to distinct organizational levels and functions. Their applications span diverse business activities, ranging from streamlining operations to empowering decision-makers at the executive level. Embracing information systems is not just a technological choice but a strategic imperative for businesses seeking sustainable success in the information age.
+
+    </p>
+  
+    <p><b>Sources:</b><br>
+      <a href="https://emeritus.org/in/learn/the-6-types-of-information-systems-and-their-applications/">The 6 Types Of Information Systems And Their Applications<br></a>
+      <a href="https://www.simplilearn.com/types-of-information-systems-and-applications-article">The 6 Most Popular Types of Information Systems and Their Applications<br></a>
+      <a href="https://www.investopedia.com/terms/d/decision-support-system.asp#:~:text=A%20decision%20support%20system%20(DSS)%20is%20a%20computerized%20prog%20ram%20used,problems%20and%20in%20decision%2Dmaking.">Decision Support System (DSS): What It Is and How Businesses Use Them<br></a>
+      <a href="https://www.academia.edu/5972444/Expert_systems_principles_and_programming">Expert systems: principles and programming<br></a>
+      <a href="https://ecampusontario.pressbooks.pub/infosysbus/chapter/chapter-1-what-is-an-information-system/">Chapter 1: What Is an Information System?<br></a>
+      <a href="https://www.msn.com/en-us/news/technology/data-vs-information-the-key-differences-explained/ar-AA197kZA">Data vs. Information: The Key Differences Explained<br><br><br><br></a>
+    </p>
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <h2>What are Number Systems?</h2>
+    <p>Number systems are a fundamental concept in mathematics and computer science that provide a way to represent and work with numeric values. They define the rules and symbols used to express quantities, making it possible to perform mathematical operations, communicate numeric information, and store data in various formats.
+    Number systems are essential for both everyday life and the functioning of digital devices like computers.
+    </p>
+    <h3>Types of Number Systems</h3>
+    <p>There are several types of number systems, each with its own base and set of symbols:<br><br>
+
+      a. Binary Number System Base: 2<br>
+      <br>Symbols: 0 and 1
+      <br><br>Significance: Widely used in computers, where electrical signals are represented as either on (1) or off (0). It forms the basis for digital data storage and processing.
+      
+      <br><br>b. Octal Number System Base: 8
+      <br><br>Symbols: 0 to 7
+      <br><br>Significance: Used in some computer systems and programming languages for compactly representing binary data. It's less common today but still relevant in specific contexts.
+      <br><br><br>c. Decimal Number System Base: 10
+      <br><br>Symbols: 0 to 9
+      <br><br>Significance: The most familiar number system in everyday life. It's used for counting, arithmetic calculations, and representing quantities in various fields.
+      
+      <br><br><br>d. Hexadecimal Number System 
+      <br><br>Base: 16
+      <br><br>Symbols: 0 to 9 and A to F (where A=10, B=11, C=12, D=13, E=14, F=15) 
+      <br><br>Significance: Widely employed in computer science for representing binary data more compactly and conveniently. Used in memory addressing, encoding, and programming.
+
+    
+    </p>
+    <h3><br><br>Uses/Significance of Each Number System</h3>
+    <p>
+
+    <br><br>Binary Number System: It's crucial in computer science and digital electronics, as it represents the foundation for all digital data and computation. Binary digits (bits) are used to encode and manipulate information in hardware and software.
+    <br><br>Octal Number System: Although less common today, it's still used in some computer systems and programming languages. Octal provides a compact representation of binary data and is useful for bit manipulation.
+    <br><br>Decimal Number System: This is the most common number system in everyday life. We use it for counting, calculations, and representing numerical values in fields like finance, science, and engineering.
+    <br><br>Hexadecimal Number System: Hexadecimal is essential in computer science, especially for programmers and developers. It simplifies the representation of binary data and allows for concise encoding of memory addresses, binary patterns, and data structures.
+
+
+
+    </p>
+    <p><b>Sources:</b><br>
+      <a href="http://byjus.com/maths/number-system/">Number System<br></a>
+      <a href="https://www.educba.com/number-systems/?fbclid=IwAR2UUtlelcSyGQ1Vkbn5UrjMLZ2ICk5grnGE4cWHS0nSLjeqhOCdslytInY">Number Systems<br></a>
+      <a href="https://www.cuemath.com/numbers/number-systems/?fbclid=IwAR04HOZ9gmncYmFuLl4jUUMN3qXtOb_EMQ1l-7x_BNydVC1ssKjXJikdbRQ">Number Systems<br></a>
+      <a href="https://www.geeksforgeeks.org/what-is-the-importance-of-the-number-system/?fbclid=IwAR0PvE7h6HxjncbAyiNT8EAZLYdWXvY5gaACKurnsNgdH7i7olKMorg4XAI">What is the importance of the number system?<br></a>
+      <a href="https://unacademy.com/content/cat/study-material/mathematics/number-systems-in-real-life-situations/">Number Systems in Real Life Situations<br><br><br><br></a>
+    </p>
+    </div>
+
+    <div id="backButton" class="back-button">
+        <button onclick="goBack()">Back</button>
+    </div>
+
+    <div class="additional-text">
+        <p>2023 CIS 1102 - Introduction to Computing
+          <br>Zechariah Jose G. Refugio
+        </p>
+    </div>
+</div>
+
+<script>
+    function showTab(tabName) {
+        
+        var tabs = document.getElementsByClassName('tab-content');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
+        }
+
+        
+        document.getElementById(tabName).style.display = 'block';
+
+        
+        var backButton = document.getElementById('backButton');
+        backButton.style.display = 'block';
+    }
+
+    function goBack() {
+        
+        var tabs = document.getElementsByClassName('tab-content');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].style.display = 'none';
+        }
+
+        document.getElementById('tabContent').style.display = 'block';
+
+        
+        var backButton = document.getElementById('backButton');
+        backButton.style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
